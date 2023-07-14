@@ -7,6 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'default': [
+          '0px 0px 10px rgb(191, 219, 254)',
+        ],
+        'black': [
+          '0px 0px 10px rgba(0, 0, 0, 1)',
+        ]
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -15,4 +23,5 @@ module.exports = {
     },
   },
   plugins: [],
+
 }
