@@ -110,40 +110,40 @@ const Home = () => {
 
         <section className='mb-10'>
           <h2 className='text-3xl max-sm:text-xl max-sm:mx-8 font-bold text-center mb-8'>MINHAS REDES SOCIAIS</h2>
-          <div className='flex max-sm:flex-col max-sm:gap-y-8 gap-x-20 items-center text-center'>
-            <div className='flex flex-col items-center gap-y-2 w-[250px] h-[190px] border-2 border-blue-600 px-6 py-4 rounded-md text-blue-600'>
+          <div className='flex max-lg:grid max-lg:grid-cols-2 max-lg:mx-10 max-lg:place-items-center max-lg:gap-y-8 max-sm:gap-x-14 gap-x-8 items-center text-center'>
+            <div className='flex flex-col items-center gap-y-2 w-[170px] h-[150px] border-2 border-blue-600 px-6 py-4 rounded-md text-blue-600'>
               <Image src={tiktoklogo} alt="Logo" width={35} />
               <div className='flex'>
-                <p className='text-6xl font-bold'>+</p>
-                <p className='text-6xl font-bold'>400</p>
-                <p className='text-6xl font-bold'>K</p>
+                <p className='text-3xl font-bold'>+</p>
+                <p className='text-3xl font-bold'>400</p>
+                <p className='text-3xl font-bold'>K</p>
               </div>
               <p className='font-medium'>SEGUIDORES</p>
             </div>
-            <div className='flex flex-col items-center gap-y-2 w-[250px] h-[190px] border-2 border-blue-600 px-6 py-4 rounded-md text-blue-600'>
+            <div className='flex flex-col items-center gap-y-2 w-[170px] h-[150px] border-2 border-blue-600 px-6 py-4 rounded-md text-blue-600'>
               <Image src={instagram} alt="Logo" width={35} />
               <div className='flex'>
-                <p className='text-6xl font-bold'>+</p>
-                <p className='text-6xl font-bold'>20</p>
-                <p className='text-6xl font-bold'>K</p>
+                <p className='text-3xl font-bold'>+</p>
+                <p className='text-3xl font-bold'>20</p>
+                <p className='text-3xl font-bold'>K</p>
               </div>
               <p className='font-medium'>SEGUIDORES</p>
             </div>
-            <div className='flex flex-col items-center gap-y-2 w-[250px] h-[190px] border-2 border-blue-600 px-6 py-4 rounded-md text-blue-600'>
+            <div className='flex flex-col items-center gap-y-2 w-[170px] h-[150px] border-2 border-blue-600 px-6 py-4 rounded-md text-blue-600'>
               <Image src={like} alt="Logo" width={45} />
               <div className='flex'>
-                <p className='text-6xl font-bold'>+</p>
-                <p className='text-6xl font-bold'>9,3</p>
-                <p className='text-6xl font-bold'>M</p>
+                <p className='text-3xl font-bold'>+</p>
+                <p className='text-3xl font-bold'>9,3</p>
+                <p className='text-3xl font-bold'>M</p>
               </div>
               <p className='font-medium'>CURTIDAS</p>
             </div>
-            <div className='flex flex-col items-center gap-y-2 w-[250px] h-[190px] border-2 border-blue-600 px-6 py-4 rounded-md text-blue-600'>
+            <div className='flex flex-col items-center gap-y-2 w-[170px] h-[150px] border-2 border-blue-600 px-6 py-4 rounded-md text-blue-600'>
               <Image src={views} alt="Logo" width={55} />
               <div className='flex'>
-                <p className='text-6xl font-bold'>+</p>
-                <p className='text-6xl font-bold'>1</p>
-                <p className='text-6xl font-bold'>B</p>
+                <p className='text-3xl font-bold'>+</p>
+                <p className='text-3xl font-bold'>1</p>
+                <p className='text-3xl font-bold'>B</p>
               </div>
               <p className='font-medium'>VISUALIZAÇÕES</p>
             </div>
