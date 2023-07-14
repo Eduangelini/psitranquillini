@@ -249,7 +249,7 @@ const Home = () => {
             </div>
             <div className='shadow-default rounded-lg p-4 flex flex-col gap-y-3'>
               <FiveStars />
-              <p>Foi ótimo ter uma profissional que tanto admiramos entre nós, contribuindo com todos que participaram sobre um tema muito importante e atual. Apesar de ser um momento de participação optativa, mais de 95% dos funcionários estavam presentes na palestra "Ansiedade e Mindfulness".
+              <p>Foi ótimo ter uma profissional que tanto admiramos entre nós, contribuindo com todos que participaram sobre um tema muito importante e atual. Apesar de ser um momento de participação optativa, mais de 95% dos funcionários estavam presentes na palestra &quot;Ansiedade e Mindfulness&quot;.
                 Escolhemos a Bárbara por todo conteúdo relevante que tem disponibilizado na internet sobre saúde mental, o que foi um grande acerto pois os colaboradores engajaram muito com a ação e deixaram feedbacks muito positivos sobre a psicóloga, o material apresentado, a condução e as práticas ensinadas para o dia-a-dia. Cada dia mais as pessoas evitam empresas com ambiente tóxico, valorizando mais qualidade de vida. Realizar investimentos na saúde mental dos colaboradores é essencial!</p>
               <p className='font-bold text-blue-700'>Stéphanie Baccin</p>
               <p>GEAR SEO</p>
