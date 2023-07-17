@@ -17,7 +17,7 @@ const FAQ = () => {
         </AccordionSummary>
         <AccordionDetails className='bg-white shadow-none'>
           <Typography className='bg-white shadow-none py-4 text-lg'>
-            É só clicar nesse link que você será redirecionado para o What's App da minha assistente, Velma.
+            É só clicar nesse link que você será redirecionado para o What&apos;s App da minha assistente, Velma.
             Ela vai lhe passar todas as informações sobre o funcionamento das sessões, valores, formas de pagamento, disponibilidade de horário e qualquer outra dúvida que você tiver.
           </Typography>
         </AccordionDetails>
@@ -31,7 +31,7 @@ const FAQ = () => {
         </AccordionSummary>
         <AccordionDetails className='bg-white shadow-none'>
           <Typography className='bg-white shadow-none py-4 text-lg'>
-            Além da minha experiência e formação, eu estou constantemente estudando novas alternativas e reflexões que possam contribuir para meu trabalho e quaisquer desafios que se apresentem em casos específicos. Acredito no poder do vínculo terapêutico para gerar mudanças mas também creio que sou apenas uma facilitadora no processo de cura e desenvolvimento pessoal. É exatamente por isso que uso o termo "cliente" ao invés de paciente. Na relação clínica não existe uma hierarquia de poder e você não receberá um tratamento de maneira passiva. Costumo dizer que a verdadeira terapia começa apenas quando a sessão termina.
+            Além da minha experiência e formação, eu estou constantemente estudando novas alternativas e reflexões que possam contribuir para meu trabalho e quaisquer desafios que se apresentem em casos específicos. Acredito no poder do vínculo terapêutico para gerar mudanças mas também creio que sou apenas uma facilitadora no processo de cura e desenvolvimento pessoal. É exatamente por isso que uso o termo &quot;cliente&quot; ao invés de paciente. Na relação clínica não existe uma hierarquia de poder e você não receberá um tratamento de maneira passiva. Costumo dizer que a verdadeira terapia começa apenas quando a sessão termina.
           </Typography>
         </AccordionDetails>
       </Accordion>
