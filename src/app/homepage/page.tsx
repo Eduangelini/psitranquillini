@@ -20,6 +20,7 @@ import Brain from '@/components/Icons/Brain'
 import Positive from '@/components/Icons/Positive'
 import Focus from '@/components/Icons/Focus'
 import FiveStars from '@/components/Icons/FiveStars'
+import FAQ from '@/components/faq'
 
 const Home = () => {
   return (
@@ -277,8 +278,8 @@ const Home = () => {
 
         <section className='flex justify-center mx-5'>
           <div className='bg-blue-300 xl:w-6/12 rounded-xl flex max-lg:flex-col justify-center max-lg:text-center items-center py-10 text-white'>
-            <div className='flex flex-col lg:mx-10 max-md:mx-5 lg:items-start gap-y-3 xl:me-56 lg:me-16'>
-              <h2 className='text-3xl max-sm:mx-8 font-bold text-start '>Ebook Caixa de Ferramentas</h2>
+            <div className='flex flex-col md:mx-10 max-md:mx-5 lg:items-start gap-y-3 xl:me-56 lg:me-16'>
+              <h2 className='text-3xl max-sm:mx-8 font-bold lg:text-start '>Ebook Caixa de Ferramentas</h2>
               <p className='text-xl max-sm:mx-8 font-medium'>Baixe agora o ebook caixa de ferramentas e tenha em mãos ferramentas poderosas para ajudar a lidar com a ansiedade a qualquer hora.</p>
               <button className='border-none bg-blue-500 text-white p-4 rounded-md font-medium hover:bg-blue-700'>
                 Baixa agora
@@ -287,9 +288,24 @@ const Home = () => {
           </div>
         </section>
 
-        <section className='my-8'>
-          <h2 className='text-3xl max-sm:text-xl max-sm:mx-8 font-bold text-center mb-8'>FAQ</h2>
+        <FAQ />
+
+        <section>
+          <div className='bg-blue-300 w-screen flex max-lg:flex-col justify-center max-lg:text-center items-center py-10 lg:px-40 text-white'>
+            <div className='flex flex-col lg:items-start gap-y-3 xl:me-56 lg:me-16 max-lg:mb-10 lg:w-8/12'>
+              <h2 className='text-4xl max-sm:mx-8 font-bold max-lg:text-center '>Venha conhecer uma nova, completa e inovadora jornada para sua saúde mental.</h2>
+            </div>
+            <div className='lg:w-4/12'>
+              <button className='border-none bg-blue-500 text-white p-4 rounded-md font-medium hover:bg-blue-700'>
+                Entrar em contato
+              </button>
+            </div>
+          </div>
         </section>
+
+        <footer>
+          <h2 className='text-3xl max-sm:text-xl max-sm:mx-8 font-bold text-center mb-10'>FOOTER</h2>
+        </footer>
 
 
       </main>
