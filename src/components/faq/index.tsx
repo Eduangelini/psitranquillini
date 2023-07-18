@@ -7,7 +7,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const FAQ = () => {
   return (
-    <section className='py-8 px-5 flex flex-col gap-y-2 lg:w-7/12'>
+    <section className='py-8 px-6 flex flex-col gap-y-2 lg:w-6/12'>
       <h2 className='text-3xl max-sm:text-3xl max-sm:mx-8 font-bold text-center mb-8 text-blue-500'>Perguntas Frequentes</h2>
       <Accordion className='bg-blue-200 rounded-md shadow-none'>
         <AccordionSummary

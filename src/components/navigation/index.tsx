@@ -1,7 +1,9 @@
+'use client'
+
 import React from 'react'
 import LogoIcon from '../Icons/LogoIcon'
 
-const Navigation = () => {
+const NavBar = () => {
   return (
     <nav className='relative flex justify-around py-6'>
       <LogoIcon />
@@ -19,4 +21,4 @@ const Navigation = () => {
   )
 }
 
-export default Navigation
+export default NavBar
