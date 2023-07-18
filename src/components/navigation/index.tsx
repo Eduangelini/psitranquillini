@@ -3,7 +3,7 @@ import LogoIcon from '../Icons/LogoIcon'
 
 const Navigation = () => {
   return (
-    <nav className='relative flex justify-around py-6 bg-white'>
+    <nav className='relative flex justify-around py-6'>
       <LogoIcon />
       <div className='flex items-center gap-10 max-md:hidden'>
         <ul className='flex gap-10 cursor-pointer'>

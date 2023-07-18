@@ -84,29 +84,33 @@ const Home = () => {
         </section>
 
         <section className='mb-10'>
-          <div className='bg-blue-300 w-screen flex flex-col max-lg:flex-col justify-center max-lg:text-center items-center py-20 text-white'>
+          <div className='bg-blue-400 w-screen flex flex-col max-lg:flex-col justify-center items-center py-20 text-white'>
             <h2 className='text-3xl max-sm:text-xl max-sm:mx-8 font-bold text-center mb-10'>O QUE EU POSSO TE OFERECER:</h2>
-            <div className='grid grid-cols-2 max-md:grid-cols-1 place-items-center text-center gap-8 mx-80 max-xl:mx-14 max-md:mx-8'>
-              <div className='flex flex-col justify-center text-center items-center gap-y-6 shadow-lg shadow-blue-400 px-6 py-4 rounded-lg text-blue-600 max-2xl:h-[220px] max-lg:h-[280px] 2xl:h-[220px]'>
-                <div className='flex'>
+            <div className='grid grid-cols-2 max-md:grid-cols-1 place-items-center  gap-8 mx-80 max-xl:mx-14 max-md:mx-8'>
+              <div className='flex flex-col justify-center gap-y-6 bg-blue-300 shadow-default shadow-blue-400 px-8 rounded-lg text-blue-600 max-2xl:h-[220px] max-lg:h-[280px] 2xl:h-[220px]'>
+                <div className='flex items-center gap-x-10'>
+                  <p>Icon</p>
                   <p className='text-3xl font-bold'>Palestras</p>
                 </div>
                 <p className='font-medium'>Entenda a importância de palestras sobre saúde mental em sua empresa e o porquê a Bárbara é a profissional ideal.</p>
               </div>
-              <div className='flex flex-col justify-center text-center items-center gap-y-6 shadow-lg shadow-blue-400 px-6 py-4 rounded-lg text-blue-600 max-2xl:h-[220px] max-lg:h-[280px] 2xl:h-[220px]'>
-                <div className='flex'>
+              <div className='flex flex-col justify-center gap-y-6 bg-blue-300 shadow-default shadow-blue-400 px-8 rounded-lg text-blue-600 max-2xl:h-[220px] max-lg:h-[280px] 2xl:h-[220px]'>
+                <div className='flex items-center gap-x-10'>
+                  <p>Icon</p>
                   <p className='text-3xl font-bold'>Psicoterapia</p>
                 </div>
                 <p className='font-medium'>Processo terapêutico focado no indivíduo. Tire aqui todas as suas dúvidas sobre a psicóloga Bárbara, sua metodologia e consultório. </p>
               </div>
-              <div className='flex flex-col justify-center text-center items-center gap-y-6 shadow-lg shadow-blue-400 px-6 py-4 rounded-lg text-blue-600 max-2xl:h-[220px] max-lg:h-[280px] 2xl:h-[220px]'>
-                <div className='flex'>
+              <div className='flex flex-col justify-center gap-y-6 bg-blue-300 shadow-default shadow-blue-400 px-8 rounded-lg text-blue-600 max-2xl:h-[220px] max-lg:h-[280px] 2xl:h-[220px]'>
+                <div className='flex items-center gap-x-10'>
+                  <p>Icon</p>
                   <p className='text-3xl font-bold'>Grupo Terapêutico</p>
                 </div>
-                <p className='font-medium'>Saiba mais sobre o Liberdade da Ansiedade, que visa entregar ferramentas práticas para manejar a ansiedade através de videos educativos, uma rede de apoio e ambiente acolhedor. </p>
+                <p className='font-medium'>Visa entregar ferramentas práticas para manejar a ansiedade através de videos educativos, uma rede de apoio e ambiente acolhedor. </p>
               </div>
-              <div className='flex flex-col justify-center text-center items-center gap-y-6 shadow-lg shadow-blue-400 px-6 py-4 rounded-lg text-blue-600 max-2xl:h-[220px] max-lg:h-[280px] 2xl:h-[220px]'>
-                <div className='flex'>
+              <div className='flex flex-col justify-center gap-y-6 bg-blue-300 shadow-default shadow-blue-400 px-8 rounded-lg text-blue-600 max-2xl:h-[220px] max-lg:h-[280px] 2xl:h-[220px]'>
+                <div className='flex items-center gap-x-10'>
+                  <p>Icon</p>
                   <p className='text-3xl font-bold'>Redes Sociais</p>
                 </div>
                 <p className='font-medium'>Conheça o @psitranquillini, que é a forma de democratizar e disseminar o conhecimento sobre saúde mental, mente e corpo!</p>
