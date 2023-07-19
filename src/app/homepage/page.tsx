@@ -12,8 +12,13 @@ import NavBar from '@/components/navigation'
 import Hero from '@/components/hero'
 import TrustedBy from '@/components/trusted'
 
+import instagramfooter from '../../../public/instagram-footer.svg'
+import tiktokfooter from '../../../public/tiktok-footer.svg'
+import youtubelogo from '../../../public/youtube-logo.svg'
+import twitterlogo from '../../../public/twitter-logo.svg'
 
-import React, { useRef, useState } from 'react';
+
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -233,15 +238,58 @@ const Home = () => {
             </div>
           </div>
         </section>
-
-        <footer>
-          <h2 className='text-3xl max-sm:text-xl max-sm:mx-8 font-bold text-center mb-10'>FOOTER</h2>
-        </footer>
-
-
       </main>
 
-
+      <footer className='mt-10 flex flex-col'>
+        <div className='flex max-sm:flex-col max-sm:gap-y-8 justify-around'>
+          <div className='px-4'>
+            <p className='my-2 font-bold text-lg'>Redes Sociais:</p>
+            <p className='my-4'>Acompanhe e fique por dentro das novidades.</p>
+            <ul className='flex gap-x-6'>
+              <li className='cursor-pointer lg:opacity-50 hover:opacity-100'>
+                <Image src={tiktokfooter} alt="Logo" width={60} />
+              </li>
+              <li className='cursor-pointer lg:opacity-50 hover:opacity-100'>
+                <Image src={instagramfooter} alt="Logo" width={60} />
+              </li>
+              <li className='cursor-pointer lg:opacity-50 hover:opacity-100'>
+                <Image src={youtubelogo} alt="Logo" width={60} />
+              </li>
+              <li className='cursor-pointer lg:opacity-50 hover:opacity-100'>
+                <Image src={twitterlogo} alt="Logo" width={60} />
+              </li>
+            </ul>
+          </div>
+          <div className='px-4'>
+            <p className='my-2 font-bold text-lg'>Meus serviços</p>
+            <ul className='flex flex-col gap-y-3'>
+              <li>Acompanhamento Clínico</li>
+              <li>Palestras</li>
+              <li>Criação de conteúdo</li>
+              <li>Grupo de Desafios</li>
+            </ul>
+          </div>
+          <div className='px-4'>
+            <p className='my-2 font-bold text-lg'>Recomendações</p>
+            <ul className='flex flex-col gap-y-3'>
+              <li>Blog</li>
+              <li>Livros</li>
+              <li>Psi.care</li>
+            </ul>
+          </div>
+          <div className='px-4'>
+            <p className='my-2 font-bold text-lg'>E-books</p>
+            <ul className='flex flex-col gap-y-3'>
+              <li>Caixa de ferramentas</li>
+              <li>3 Exercícios mentais</li>
+            </ul>
+          </div>
+        </div>
+        <div className='py-3 bg-blue-400 flex max-sm:flex-col max-sm:gap-y-4 max-sm:text-center justify-around mt-10 text-white font-bold'>
+          <p>&copy; 2023 BarbaraTranquillini. Todos os direitos reservados.</p>
+          <p>Desenvolvido por #dd</p>
+        </div>
+      </footer>
     </>
   )
 }
