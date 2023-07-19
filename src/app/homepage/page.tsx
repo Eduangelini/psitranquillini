@@ -17,6 +17,11 @@ import tiktokfooter from '../../../public/tiktok-footer.svg'
 import youtubelogo from '../../../public/youtube-logo.svg'
 import twitterlogo from '../../../public/twitter-logo.svg'
 
+import palestra from '../../../public/palestras.svg'
+import psicoterapia from '../../../public/psicoterapia.svg'
+import grupo from '../../../public/grupo.svg'
+import redessociais from '../../../public/redes-sociais.svg'
+
 
 import React from 'react';
 // Import Swiper React components
@@ -110,28 +115,28 @@ const Home = () => {
             <div className='grid grid-cols-2 max-md:grid-cols-1 place-items-center  gap-8 mx-80 max-xl:mx-14 max-md:mx-8'>
               <div className='flex flex-col justify-center gap-y-6 bg-blue-300 shadow-default shadow-blue-400 px-8 rounded-lg text-blue-600 max-2xl:h-[220px] max-lg:h-[280px] 2xl:h-[220px]'>
                 <div className='flex items-center gap-x-10'>
-                  <p>Icon</p>
+                  <Image src={palestra} alt="Logo" width={60} />
                   <p className='text-3xl font-bold'>Palestras</p>
                 </div>
                 <p className='font-medium'>Entenda a importância de palestras sobre saúde mental em sua empresa e o porquê a Bárbara é a profissional ideal.</p>
               </div>
               <div className='flex flex-col justify-center gap-y-6 bg-blue-300 shadow-default shadow-blue-400 px-8 rounded-lg text-blue-600 max-2xl:h-[220px] max-lg:h-[280px] 2xl:h-[220px]'>
                 <div className='flex items-center gap-x-10'>
-                  <p>Icon</p>
+                  <Image src={psicoterapia} alt="Logo" width={60} />
                   <p className='text-3xl font-bold'>Psicoterapia</p>
                 </div>
                 <p className='font-medium'>Processo terapêutico focado no indivíduo. Tire aqui todas as suas dúvidas sobre a psicóloga Bárbara, sua metodologia e consultório. </p>
               </div>
               <div className='flex flex-col justify-center gap-y-6 bg-blue-300 shadow-default shadow-blue-400 px-8 rounded-lg text-blue-600 max-2xl:h-[220px] max-lg:h-[280px] 2xl:h-[220px]'>
                 <div className='flex items-center gap-x-10'>
-                  <p>Icon</p>
+                  <Image src={grupo} alt="Logo" width={60} />
                   <p className='text-3xl font-bold'>Grupo Terapêutico</p>
                 </div>
                 <p className='font-medium'>Visa entregar ferramentas práticas para manejar a ansiedade através de videos educativos, uma rede de apoio e ambiente acolhedor. </p>
               </div>
               <div className='flex flex-col justify-center gap-y-6 bg-blue-300 shadow-default shadow-blue-400 px-8 rounded-lg text-blue-600 max-2xl:h-[220px] max-lg:h-[280px] 2xl:h-[220px]'>
                 <div className='flex items-center gap-x-10'>
-                  <p>Icon</p>
+                  <Image src={redessociais} alt="Logo" width={60} />
                   <p className='text-3xl font-bold'>Redes Sociais</p>
                 </div>
                 <p className='font-medium'>Conheça o @psitranquillini, que é a forma de democratizar e disseminar o conhecimento sobre saúde mental, mente e corpo!</p>
