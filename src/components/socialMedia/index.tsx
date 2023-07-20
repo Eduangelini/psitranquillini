@@ -7,12 +7,13 @@ import like from '../../../public/like.svg'
 import instagram from '../../../public/instagram-logo.svg'
 import tiktoklogo from '../../../public/tiktok-logo.svg'
 import CountUp from 'react-countup'
+import Subtitulo from '../subtitulo'
 
 const SocialMedia = () => {
 
   return (
     <section className='mb-10'>
-      <h2 className='text-3xl max-sm:text-xl max-sm:mx-8 font-bold text-center mb-8'>MINHAS REDES SOCIAIS</h2>
+      <Subtitulo text='MINHAS REDES SOCIAIS' />
       <div className='flex max-lg:grid max-lg:grid-cols-2 max-lg:mx-10 max-lg:place-items-center max-lg:gap-y-8 max-sm:gap-x-14 gap-x-8 items-center text-center'>
         <div className='flex flex-col items-center gap-y-2 w-[170px] h-[150px] shadow-default px-6 py-4 rounded-lg text-blue-600'>
           <Image src={tiktoklogo} alt="Logo" width={35} />
