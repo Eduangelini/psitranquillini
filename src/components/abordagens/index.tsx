@@ -8,7 +8,7 @@ const Abordagens = () => {
   return (
     <section className='lg:my-10 lg:mx-20'>
       <div className='mb-8 flex flex-col items-center'>
-        <Subtitulo text='MINHAS ABORDAGEMS TERAPÊUTICAS' />
+        <Subtitulo text='Minhas abordagens terapêuticas' />
         <div className='flex justify-center gap-x-8 max-sm:flex-col max-lg:mx-3'>
           <div className='max-sm:m-3 lg:w-3/12 shadow-default rounded-lg'>
             <div className='p-3 flex text-white items-center bg-blue-300 rounded-t-lg gap-x-5 justify-center'>

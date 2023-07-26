@@ -13,7 +13,7 @@ import pharminderjr from '../../../public/pharminder-jr.svg'
 const TrustedBy = () => {
   return (
     <section>
-      <h2 className='text-3xl max-sm:text-xl max-sm:mx-8 my-14 font-bold text-center'>EMPRESAS INCRÍVEIS QUE <span className='text-blue-700'>CONFIAM NO MEU TRABALHO:</span></h2>
+      <h2 className='text-3xl max-sm:text-xl max-sm:mx-8 my-14 font-bold text-center'>Confiam no meu trabalho:</h2>
       <div className=' grid grid-cols-4 max-sm:grid-cols-2 max-lg:mx-10 gap-x-14 max-sm:gap-y-2 place-items-center'>
         <div className='lg:opacity-50 lg:hover:opacity-100 cursor-pointer'>
           <Image src={tiktok} alt="Logo" width={150} height={75} />

@@ -16,7 +16,7 @@ import Subtitulo from '../subtitulo';
 const Feedback = () => {
   return (
     <section className="lg:w-6/12 w-11/12 lg:my-10 lg:mx-20">
-      <Subtitulo text='O QUE MEUS ORIENTADOS ESTÃO DIZENDO:' />
+      <Subtitulo text='O que meus ORIENTADOS estão dizendo:' />
       <Swiper
         slidesPerView={1}
         spaceBetween={0}

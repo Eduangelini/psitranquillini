@@ -13,7 +13,7 @@ const SocialMedia = () => {
 
   return (
     <section className='mb-10'>
-      <Subtitulo text='MINHAS REDES SOCIAIS' />
+      <Subtitulo text='Minhas redes sociais' />
       <div className='flex max-lg:grid max-lg:grid-cols-2 max-lg:mx-10 max-lg:place-items-center max-lg:gap-y-8 max-sm:gap-x-14 gap-x-8 items-center text-center'>
         <div className='flex flex-col items-center gap-y-2 w-[170px] h-[150px] shadow-default px-6 py-4 rounded-lg text-blue-600'>
           <Image src={tiktoklogo} alt="Logo" width={35} />

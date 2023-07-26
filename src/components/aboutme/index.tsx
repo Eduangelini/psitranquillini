@@ -6,12 +6,12 @@ import Subtitulo from '../subtitulo'
 const AboutMe = () => {
   return (
     <section className='lg:my-10 lg:mx-20'>
-      <Subtitulo text='UM POUCO SOBRE MIM' />
+      <Subtitulo text='Um pouco sobre mim' />
       <div className='flex items-center justify-center gap-x-10'>
         <div className='lg:w-6/12 max-lg:hidden'>
           <Image src={hero} alt="Logo" className='rounded-lg' />
         </div>
-        <div className=' flex flex-col gap-y-6 lg:w-6/12 p-3 indent-5 max-lg:mx-6'>
+        <div className=' flex flex-col gap-y-6 lg:w-6/12 p-3 max-lg:mx-6'>
           <p>
             Sou psicóloga, educadora e divulgadora científica com uma clínica 100% online para maiores de 18 anos. Também sou criadora e dona do @seorientaonline.
           </p>
