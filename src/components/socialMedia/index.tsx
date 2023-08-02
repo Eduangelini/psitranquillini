@@ -10,11 +10,15 @@ import CountUp from 'react-countup'
 import Subtitulo from '../subtitulo'
 import VisibilitySensor from 'react-visibility-sensor'
 
+interface SocialMediaProps {
+  isVisible: boolean
+}
+
 const SocialMedia = () => {
 
   return (
     <VisibilitySensor>
-      {({ isVisible }) => (
+      {({ isVisible }: SocialMediaProps) => (
         isVisible ? (
           <section className='mb-10'>
             <Subtitulo text='Minhas redes sociais' />
